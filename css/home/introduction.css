@@ -36,19 +36,11 @@
 .introduction img{
     height: 100%;
     object-fit: cover;
-    border-radius: 4px;
 }
 
 
 
-@media(max-width: 1200px){
-    .introduction h1{
-        font-size: 3rem;
-    }
-    .introduction p{
-        font-size: 1.2rem;
-    }
-}
+
 
 @media(max-width: 800px){
     .introduction-bg{
@@ -64,7 +56,7 @@
         padding: 0px;
     }
     .introduction h1{
-        font-size: 2rem;
+        margin-bottom: 16px;
     }
     .introduction img{
         height: 300px;

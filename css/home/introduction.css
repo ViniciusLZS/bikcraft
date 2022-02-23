@@ -1,7 +1,7 @@
 .introduction-bg{
-    background: #000000;
-    color: #ffffff;
-    box-shadow: inset 0px -120px #ffffff;
+    background: var(--color-12);
+    color: var(--color-0);
+    box-shadow: inset 0px -120px var(--color-0);
 }
 
 .introduction{
@@ -21,23 +21,15 @@
 
 .introduction h1{
     margin-bottom: 32px;
-    font-size: 4rem;
-    line-height: 1,12;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
 }
 
 .introduction h1 > span{
-    color: #ffbb00;
+    color: var(--color-p1);
 }
 
 .introduction p{
     margin-bottom: 20px;
-    font-size: 1.5rem;
-    line-height: 1.5;
-    color: #b2b2b2;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    color: var(--color-5);
 }
 
 
@@ -60,9 +52,9 @@
 
 @media(max-width: 800px){
     .introduction-bg{
-        background: #111111;
+        background: var(--color-11);
         padding-top: 40px;
-        box-shadow: inset 0px -60px #ffffff;
+        box-shadow: inset 0px -60px var(--color-0);
     }
     .introduction{
         grid-template-columns: 1fr;

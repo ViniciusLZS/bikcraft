@@ -1,4 +1,11 @@
 @import './global/global.css';
 @import './global/header.css';
+
+
+/*utilities*/
+@import './utilities/components.css';
+@import './utilities/typography.css';
+@import './utilities/color.css';
+
+/*Home*/
 @import './home/introduction.css';
-@import './utilities/components.css'

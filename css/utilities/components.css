@@ -23,6 +23,23 @@
     background: linear-gradient(#ffb60d, #e59317);
 }
 
+.link{
+    display: inline-block;
+    color: var(--color-p1);
+    font: 500 1.5rem/1.5 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+.link::after{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: currentcolor;
+}
+.link:hover{
+    color: var(--color-0);
+}
+
 @media(max-width: 600px){
     .botao{
         padding: 12px 16px;

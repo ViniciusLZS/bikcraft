@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--color-p1);
-    overflow: hidden;
+   
 }
 .testemonial-img img{
     height: 100%;
@@ -14,6 +14,7 @@
 .testemonial-content{
     padding: 40px 40px 80px 80px;
     align-self: flex-end;
+    overflow: hidden;
 }
 
 .testemonial-content blockquote{

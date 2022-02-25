@@ -7,7 +7,7 @@
     margin-right: auto;
 }
 
-.botao{
+.button{
     display: inline-block;
     padding: 16px 32px;
     background: linear-gradient(#ffbf00, #f2a50c);
@@ -17,11 +17,20 @@
     color: #332200;
     font-size: 1.1rem;
     font: 600 1.125rem/1.35 'Poppins', sans-serif;
+    max-width: max-content;
 }
-
-.botao:hover{
+.button:hover{
     background: linear-gradient(#ffb60d, #e59317);
 }
+
+.button.secondary{
+    background: var(--color-10);
+    color: var(--color-2);
+}
+.button.secondary:hover{
+    background: var(--color-9);
+}
+
 
 .link{
     display: inline-block;

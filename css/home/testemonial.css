@@ -1,0 +1,63 @@
+.testemonial{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--color-p1);
+    overflow: hidden;
+}
+.testemonial-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0px;
+}
+
+.testemonial-content{
+    padding: 40px 40px 80px 80px;
+    align-self: flex-end;
+}
+
+.testemonial-content blockquote{
+    color: var(--color-p5);
+}
+
+.testemonial-content p{
+    max-width: 32ch;
+    font-family: Merriweather, serif;
+    font-style: italic;
+    font-weight: 900;
+    margin-bottom: 32px;
+    position: relative;
+}
+
+.testemonial-content p::before{
+    content: '“';
+    font-size: 5rem;
+    color: var(--color-p2);
+    position: absolute;
+    left: -50px;
+    top: -20px;
+}
+.testemonial-content p::after{
+    content: '”';
+    font-size: 5rem;
+    color: var(--color-p2);
+    position: absolute;
+}
+
+.testemonial-content span{
+    color: var(--color-p4);
+}
+
+@media(max-width: 800px){
+    .testemonial{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .testemonial-img img{
+        max-height: 200px;
+    }
+    .testemonial-content{
+        padding: 40px 20px;
+        justify-self: center;
+    }
+}

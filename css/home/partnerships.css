@@ -8,7 +8,7 @@
 }
 
 .partnerships ul{
-    padding: 0px 20px;
+    padding: 0 20px;
     max-width: 1400px;
     margin: 0 auto;
 
@@ -18,9 +18,14 @@
 
 .partnerships li{
     display: flex;
-    padding: 20px;
+    padding: 32px;
     border-left: 2px solid var(--color-2);
 }
+
+.partnerships img{
+    margin: auto;
+}
+
 .partnerships li:first-child,
 .partnerships li:nth-child(5){
     border-left: none;
@@ -48,6 +53,11 @@
     .partnerships ul{
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .partnerships li{
+        padding: 20px;
+    }
+
     .partnerships li:nth-child(odd){
         border-left: none;
     }

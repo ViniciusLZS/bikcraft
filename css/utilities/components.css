@@ -49,6 +49,27 @@
     color: var(--color-0);
 }
 
+/*titulo internos*/
+.title-bg{
+    padding: 60px 0;
+    background: var(--color-11);
+}
+
+.title p{
+    margin-bottom: 4px;
+}
+
+@media(max-width: 800px){
+    .title-bg{
+        padding: 40px 0;
+    }
+    .title p{
+        font-size: 1rem;
+        text-transform: lowercase;
+        font-weight: 400;
+    }
+}
+
 @media(max-width: 600px){
     .botao{
         padding: 12px 16px;

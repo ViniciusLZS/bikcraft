@@ -1,0 +1,30 @@
+.title p{
+    color: var(--color-5);
+}
+
+.title h1{
+    color: var(--color-0);
+}
+.title span{
+    color: var(--color-p1);
+}
+
+.terms{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.terms h2{
+    color: var(--color-11);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.terms p + h2{
+    margin-top: 40px;
+}
+
+.terms p{
+    color: var(--color-10);
+    margin-bottom: 24px;
+}

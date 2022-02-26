@@ -20,3 +20,6 @@
 
 /*Seguros*/
 @import './insurance/insurance.css';
+
+/*Termos e condições*/
+@import './terms/terms.css';

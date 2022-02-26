@@ -32,6 +32,10 @@
     margin-bottom: 40px;
 }
 
+.insurance-items .gold{
+    color: var(--color-p1);
+}
+
 .insurance-items span{
     color: var(--color-0);
     grid-column: 2;

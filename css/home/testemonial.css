@@ -61,4 +61,8 @@
         padding: 40px 20px;
         justify-self: center;
     }
+    .testemonial-content blockquote{
+        color: var(--color-p5);
+        font-size: 1.5rem;
+    }
 }

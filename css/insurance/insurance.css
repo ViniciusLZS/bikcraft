@@ -11,6 +11,10 @@
     align-items: center;
 }
 
+#insurance .insurance{
+    padding-top: 0px;
+}
+
 .insurance h2{
     color: var(--color-0);
     grid-column: 1/-1;

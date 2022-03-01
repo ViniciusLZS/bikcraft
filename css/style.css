@@ -15,14 +15,17 @@
 @import './home/partnerships.css';
 @import './home/testemonial.css';
 
-/*Bike list*/
+/*Bike-list*/
 @import './bike/bike-list.css';
 @import './bike/bikes.css';
+
+/*Page-bikes*/
+@import '../css/page-bikes/page-bike.css';
 
 /*Seguros*/
 @import './insurance/insurance.css';
 @import './insurance/benefits.css';
 @import './insurance/questions.css';
 
-/*Termos e condições*/
+/*Terms and conditions*/
 @import './terms/terms.css';

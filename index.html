@@ -11,7 +11,9 @@
 
     <meta name="description" content="Bicicleta elétrica de alta presisão e qualidade, sob medida para o cliente. explore o mundo na sua velocidade com a Bikcraft">
 
+    <link rel="preload" href="./css/style.css" as="style">
     <link rel="stylesheet" href="./css/style.css">
+
     <link rel="stylesheet" href=".css/global/header.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,9 +41,11 @@
                 <p class="font-2-l">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft</p>
                 <a class="button" href="./bikes.html">Escolha a sua</a>
             </div>
-            <div class="introduction-img">
+
+            <picture>
+                <source @media(max-width:800px) srcset="./img/bicicletas/nimbus.jpg">
                 <img src="./img/fotos/introducao.jpg" alt="bicicleta elétrica">
-            </div>
+            </picture>
         </div>
     </main>
 
@@ -148,7 +152,7 @@
                     <li>Suporte 08h às 18h</li>
                     <li>Cobertura estadual</li>
                 </ul>
-                <a class="button secondary" href="./orcamento.html">INSCREVA-SE</a>
+                <a class="button secondary" href="./budget.html">INSCREVA-SE</a>
             </div>
             <div class="insurance-items">
                 <h3 class="font-1-xl gold">OURO</h3>
@@ -162,7 +166,7 @@
                     <li>Desconto em parceiros</li>
                     <li>Acesso ao Clube Bikcraft</li>
                 </ul>
-                <a class="button" href="./orcamento.html">INSCREVA-SE</a>
+                <a class="button" href="./budget.html">INSCREVA-SE</a>
             </div>
         </div>
     </article>

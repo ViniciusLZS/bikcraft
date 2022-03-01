@@ -33,3 +33,6 @@
 
 /*Terms and conditions*/
 @import './terms/terms.css';
+
+/*budget*/
+@import './budget/budget.css';

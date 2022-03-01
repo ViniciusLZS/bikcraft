@@ -73,8 +73,13 @@
 
 /*titulo internos*/
 .title-bg{
-    padding: 60px 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background: var(--color-11);
+}
+
+.title{
+    background: url('../../img/dec/top-right.svg') no-repeat top right 20px;
 }
 
 .title p{

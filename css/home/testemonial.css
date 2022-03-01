@@ -15,6 +15,7 @@
     padding: 40px 40px 80px 80px;
     align-self: flex-end;
     overflow: hidden;
+    background: url('../../img/dec/bottom-right-p.svg') no-repeat bottom right;
 }
 
 .testemonial-content blockquote{
@@ -47,6 +48,12 @@
 
 .testemonial-content span{
     color: var(--color-p4);
+}
+
+@media(min-width: 1200px){
+    .testemonial img{
+        max-height: 520px;
+    }
 }
 
 @media(max-width: 800px){

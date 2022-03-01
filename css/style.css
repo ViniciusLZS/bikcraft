@@ -8,6 +8,7 @@
 @import './utilities/components.css';
 @import './utilities/typography.css';
 @import './utilities/color.css';
+@import './utilities/form.css';
 
 /*Home*/
 @import './home/introduction.css';
@@ -22,10 +23,13 @@
 /*Page-bikes*/
 @import '../css/page-bikes/page-bike.css';
 
-/*Seguros*/
+/*insurence*/
 @import './insurance/insurance.css';
 @import './insurance/benefits.css';
 @import './insurance/questions.css';
+
+/*Contact*/
+@import './contact/contact.css';
 
 /*Terms and conditions*/
 @import './terms/terms.css';

@@ -61,6 +61,16 @@
     animation: slideDown 0.5s forwards;
 }
 
+@keyframes slideDown{
+    from{
+        opacity: 0;
+        max-height: 0px;
+    }
+    to{
+        opacity: 1;
+        max-height: 200px;
+    }
+}
 
 .questions dd{
     color: var(--color-9);

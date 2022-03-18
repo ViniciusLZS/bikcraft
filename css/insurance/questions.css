@@ -14,6 +14,9 @@
     padding: 20px;
     border-radius: 4px;
 }
+.questions dl > div:nth-child(odd){
+    background-color: var(--color-1);
+}
 
 .questions dt{
     display: grid;
@@ -23,9 +26,6 @@
     cursor: pointer;
 }
 
-.questions dl > div:nth-child(odd){
-    background-color: var(--color-1);
-}
 
 .questions dt::before{
     content: '';
@@ -41,10 +41,26 @@
     height: 6px;
     background: url('../../img/icones/seta-abrir.svg');
     transition: 0.3s;
+    
 }
-.questions dt:hover::after{
+.js-accordion dt.active::after{
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 6px;
+    background: url('../../img/icones/seta-abrir.svg');
+    transition: 0.3s;
     transform: rotate(180deg);
 }
+
+.js-accordion dd{
+    display: none;
+}
+.js-accordion dd.active{
+    display: block !important;
+    animation: slideDown 0.5s forwards;
+}
+
 
 .questions dd{
     color: var(--color-9);
